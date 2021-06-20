@@ -1,0 +1,43 @@
+#ball{
+    background: blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+#ballSize{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: transparent;
+    z-index: 2;
+}
+#ballSize:hover + #ball{
+    animation: anim 2s;
+    -webkit-animation: anim 2s forwards;
+}
+@-webkit-keyframes anim {
+    from  { right: 100%; top:-0em;}
+    to { right: -90%;bottom:-32em; }
+}
+
+.tab{
+    display: inline-block;
+
+}
+.frame{
+    width:250px;
+    height : 150px;
+}
+#f1{
+    background: blue;
+}
+#f2{
+    background: red;
+    display: none;
+}
+#f3{
+    background: fuchsia;
+    display: none;
+}

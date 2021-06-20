@@ -1,0 +1,76 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InsertUsers</title>
+    <style type="text/css">
+        .mytablerow {
+            background-color: #ff9999;
+        }
+
+        .setter {
+            display: inline-block;
+            padding: 15px;
+            border: 1px solid;
+            box-shadow: black;
+            color: darkgray;
+            margin: auto;
+            
+        }
+        
+        .row {
+            margin: auto;
+            width: 50%;
+            display: flex;
+            align-self: center;
+            background-color: cornsilk;
+        }
+
+     
+        td {
+            padding: 5px;
+        }
+    </style>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#button").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "/Main/InsertUser",
+                    data: {
+                        name: $('#name').val(),
+                        username: $('#username').val(),
+                        password: $('#password').val(),
+                        age: $('#age').val(),
+                        role: $('#role').val(),
+                        profile: $('#profile').val(),
+                        email: $('#email').val(),
+                        webpage: $('#webpage').val()
+                    },
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="row">
+    <form autocomplete="off" class="setter" action = "@Url.Action("InsertUser", "Main")">
+        Name: <input type="text" required name="name" id="name" /><br />
+        UserName: <input type="text" required name="username" id="username" /><br />
+        Password: <input type="password" autocomplete="off" required  name="password" id="password" /><br />
+        Age: <input type="number" required autocomplete="off"  min="18" max="90" name="age" id="age" /><br />
+        Email: <input type="email" required  name="email" id="email" /><br />
+        Role: <input type="text" required  name="role" id="role" /><br />
+        Profile: <input type="text" required  name="profile" id="profile" /><br />
+        Webpage: <input type="text" required  name="webpage" id="webpage" /><br />
+        <input type="submit" value="add user" />
+    </form>
+        </div>
+</body>
+</html>

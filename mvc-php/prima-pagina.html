@@ -1,0 +1,265 @@
+<html>
+<head>
+    <style type="text/css">
+        .mytablerow {
+            background-color: #ff9999;
+        }
+
+        .setter{
+            display: inline-block;
+            padding: 15px;
+            border: 1px solid;
+            box-shadow: black;
+            color: darkgray;
+        }
+        .getters{
+            padding: 15px;
+            border: 1px solid;
+            box-shadow: black;
+            color: darkgray;
+            display: block;
+
+        }
+
+        .row{
+            margin: auto;
+            width: 50%;
+            display: flex;
+            align-self: center;
+            background-color: cornsilk;
+        }
+
+
+
+    </style>
+    <script src="jquery-2.0.3.js"></script>
+    <script>
+
+
+        function lastRole() {
+            let lr = undefined;
+            return function setNewRole(role) {
+                let oldRole = lr;
+                lr = role;
+                return oldRole;
+            };
+        }
+
+        function lastName() {
+            let ln = undefined;
+            return function setNewName(name) {
+                let oldName = ln;
+                ln = name;
+                return oldName;
+            }
+        }
+
+        let role = lastRole();
+        let name = lastName();
+
+
+        function showAllUsers(students) {
+            let studentsH = JSON.parse(students);
+            let content = "<table><thead><tr><td>ID</td><td>Name</td><td>Username</td><td>Password</td><td>Age</td><td>Role</td><td>Profile</td><td>Email</td><td>Webpage</td></tr></thead>";
+            let student = undefined;
+            for (let i = 0; i < studentsH.length; i++) {
+                student = studentsH[i];
+                if (i % 2 === 0) {
+                    content += "<tr class='mytablerow'>";
+                } else {
+                    content += "<tr>";
+                }
+
+                content += "<td>" + studentsH[i].id + "</td>" +
+                    "<td>" + studentsH[i].name + "</td>" +
+                    "<td>" + studentsH[i].username + "</td>" +
+                    "<td>" + studentsH[i].password + "</td>" +
+                    "<td>" + studentsH[i].age + "</td>" +
+                    "<td>" + studentsH[i].role + "</td>" +
+                    "<td>" + studentsH[i].profile + "</td>" +
+                    "<td>" + studentsH[i].email + "</td>" +
+                    "<td>" + studentsH[i].webpage + "</td>" +
+                    "</tr>";
+            }
+            content += "</table>";
+
+            $("#main").html(content);
+        }
+
+
+        $(document).ready(function () {
+            $("#btn_getUser").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "controller.php",
+                    data: {action: "getUser", user: $('#user').val()},
+                    success: function (data) {
+
+                        showAllUsers(data)
+
+                    }
+                });
+                let p = document.getElementById('lastSearch');
+                p.innerText = '';
+                let text = name(document.getElementById('user').value);
+                if (text !== undefined) {
+                    p.innerText = 'Last name searched was: ' + text;
+                }
+
+            });
+            $("#btn_insertUser").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "controller.php",
+                    data: {
+                        action: "insertUser",
+                        id: $('#id').val(),
+                        name: $('#name').val(),
+                        username: $('#username').val(),
+                        password: $('#password').val(),
+                        age: $('#age').val(),
+                        role: $('#role').val(),
+                        profile: $('#profile').val(),
+                        email: $('#email').val(),
+                        webpage: $('#webpage').val()
+                    },
+                });
+
+            });
+
+            $("#btn_updateUser").click(function () {
+                $.ajax({
+                        type: "GET",
+                        url: "controller.php",
+                        data: {
+                            action: "updateUser",
+                            idNew: $('#idNew').val(),
+                            nameNew: $('#nameNew').val(),
+                            usernameNew: $('#usernameNew').val(),
+                            passwordNew: $('#passwordNew').val(),
+                            ageNew: $('#ageNew').val(),
+                            roleNew: $('#roleNew').val(),
+                            profileNew: $('#profileNew').val(),
+                            emailNew: $('#emailNew').val(),
+                            webpageNew: $('#webpageNew').val()
+
+                        }
+                    }
+                );
+            });
+
+            $("#btn_deleteUser").click(function () {
+                $.ajax({
+                        type: "GET",
+                        url: "controller.php",
+                        data: {
+                            action: "deleteUser",
+                            delete: $('#delete').val()
+                        }
+                    }
+                );
+            });
+
+
+            $("#btn_getUsers").click(function () {
+                $.ajax({
+                        type: "GET",
+                        url: "controller.php",
+                        data: {
+                            action: "getAllUsers",
+                        },
+                        success: function (data) {
+                            // print(data);
+                            showAllUsers(data)
+                        }
+                    }
+                );
+            });
+
+
+            $("#btn_getUsersByRole").click(function () {
+                $.ajax({
+                        type: "GET",
+                        url: "controller.php",
+                        data: {
+                            action: "filterUser",
+                            filter: $('#filter').val()
+                        },
+                        success: function (data) {
+                            // print(data);
+                            showAllUsers(data)
+                        }
+                    }
+                );
+
+                let p = document.getElementById('lastSearch');
+                p.innerText = '';
+                let text = role(document.getElementById('filter').value);
+                if (text !== undefined) {
+                    p.innerText = 'Last filtered role was: ' + text;
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+<div class="row">
+
+    <section class="setter">
+        Insert User:<br/>
+        ID: <input type="text" name="id" id="id"/> <br/>
+        Name: <input type="text" name="name" id="name"/> <br/>
+        UserName: <input type="text" name="username" id="username"/> <br/>
+        Password: <input type="text" name="password" id="password"/> <br/>
+        Age: <input type="text" name="age" id="age"/> <br/>
+        Role: <input type="text" name="role" id="role"/> <br/>
+        Profile: <input type="text" name="profile" id="profile"/> <br/>
+        Email: <input type="text" name="email" id="email"/> <br/>
+        Webpage: <input type="text" name="webpage" id="webpage"/> <br/>
+        <input type="button" id="btn_insertUser" value="Insert"/><br/>
+    </section>
+    <section  class="setter">
+        Update User:<br/>
+        ID: <input type="text" name="idNew" id="idNew"/> <br/>
+        Name: <input type="text" name="nameNew" id="nameNew"/> <br/>
+        UserName: <input type="text" name="usernameNew" id="usernameNew"/> <br/>
+        Password: <input type="text" name="passwordNew" id="passwordNew"/> <br/>
+        Age: <input type="text" name="ageNew" id="ageNew"/> <br/>
+        Role: <input type="text" name="roleNew" id="roleNew"/> <br/>
+        Profile: <input type="text" name="profileNew" id="profileNew"/> <br/>
+        Email: <input type="text" name="emailNew" id="emailNew"/> <br/>
+        Webpage: <input type="hidden" value="" name="webpageNew" id="webpageNew"/> <br/>
+        <input type="button" id="btn_updateUser" value="Update"/><br/>
+    </section>
+
+    <section  class="setter">
+        Delete User:<br/>
+        ID: <input type="text" name="delete" id="delete"/> <br/>
+        <input type="button" id="btn_deleteUser" value="Delete"/><br/>
+    </section>
+</div>
+<div class="row">
+    <section style="width: 400px" class="getters">
+        Get user details:<br/>
+        Name: <input type="text" name="user" id="user"/> <br/>
+        <input type="button" id="btn_getUser" value="Get details"/><br/>
+    </section>
+    <section style=" width: 400px" class="getters">
+        Get Users:<br/>
+        <input type="button" id="btn_getUsers" value="Get users"/><br/>
+    </section>
+    <section style=" width: 400px" class="getters">
+        Get Users By Role:<br/>
+        Filter: <input type="text" name="filter" id="filter"/> <br/>
+        <input type="button" id="btn_getUsersByRole" value="Get users by role"/><br/>
+    </section>
+</div>
+<hr/>
+<p id="lastSearch"></p>
+<section id="main"></section>
+
+
+</body>
+</html>

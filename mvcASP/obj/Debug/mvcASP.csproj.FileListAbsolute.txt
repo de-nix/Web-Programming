@@ -1,0 +1,260 @@
+C:\Users\d3nis\source\repos\mvcASP\bin\mvcASP.dll.config
+C:\Users\d3nis\source\repos\mvcASP\bin\mvcASP.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\mvcASP.pdb
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\csc.exe
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\csc.exe.config
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\csc.rsp
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\csi.exe
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\csi.exe.config
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\csi.rsp
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.AppContext.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Console.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.IO.Compression.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Net.Http.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.ValueTuple.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\vbc.exe
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\vbc.exe.config
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\vbc.rsp
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\VBCSCompiler.exe
+C:\Users\d3nis\source\repos\mvcASP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\d3nis\source\repos\mvcASP\bin\Antlr3.Runtime.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\EntityFramework.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\EntityFramework.SqlServer.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Newtonsoft.Json.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Owin.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Helpers.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Mvc.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Optimization.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Razor.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.WebPages.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.WebPages.Razor.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\WebGrease.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Helpers.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Mvc.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Optimization.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.Razor.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.WebPages.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Web.WebPages.Razor.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Newtonsoft.Json.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Antlr3.Runtime.pdb
+C:\Users\d3nis\source\repos\mvcASP\bin\EntityFramework.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\EntityFramework.SqlServer.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\d3nis\source\repos\mvcASP\obj\Debug\mvcASP.csprojAssemblyReference.cache
+C:\Users\d3nis\source\repos\mvcASP\obj\Debug\mvcASP.csproj.CopyComplete
+C:\Users\d3nis\source\repos\mvcASP\obj\Debug\mvcASP.dll
+C:\Users\d3nis\source\repos\mvcASP\obj\Debug\mvcASP.pdb
+C:\Users\d3nis\source\repos\mvcASP\bin\BouncyCastle.Crypto.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Google.Protobuf.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\K4os.Compression.LZ4.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\K4os.Hash.xxHash.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\MySql.Data.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Renci.SshNet.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Buffers.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Memory.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Numerics.Vectors.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Ubiety.Dns.Core.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Zstandard.Net.dll
+C:\Users\d3nis\source\repos\mvcASP\bin\Google.Protobuf.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\K4os.Compression.LZ4.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\K4os.Hash.xxHash.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\Renci.SshNet.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Buffers.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Memory.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Numerics.Vectors.xml
+C:\Users\d3nis\source\repos\mvcASP\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\mvcASP.dll.config
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\mvcASP.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\mvcASP.pdb
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\csc.exe
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\csc.exe.config
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\csc.rsp
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\csi.exe
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\csi.exe.config
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\csi.rsp
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.AppContext.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Console.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.IO.Compression.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Net.Http.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.ValueTuple.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\vbc.exe
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\vbc.exe.config
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\vbc.rsp
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\VBCSCompiler.exe
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Antlr3.Runtime.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\BouncyCastle.Crypto.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\EntityFramework.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\EntityFramework.SqlServer.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Google.Protobuf.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\K4os.Compression.LZ4.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\K4os.Hash.xxHash.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\MySql.Data.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Newtonsoft.Json.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Owin.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Renci.SshNet.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Buffers.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Memory.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Numerics.Vectors.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Helpers.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Mvc.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Optimization.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Razor.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.WebPages.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.WebPages.Razor.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Ubiety.Dns.Core.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\WebGrease.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Zstandard.Net.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Google.Protobuf.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\K4os.Compression.LZ4.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\K4os.Compression.LZ4.Streams.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\K4os.Hash.xxHash.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\MySql.Data.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Renci.SshNet.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Buffers.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Memory.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Numerics.Vectors.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Helpers.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Mvc.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Optimization.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.Razor.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.WebPages.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\System.Web.WebPages.Razor.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Newtonsoft.Json.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Antlr3.Runtime.pdb
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\EntityFramework.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\EntityFramework.SqlServer.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\obj\Debug\mvcASP.csprojAssemblyReference.cache
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\obj\Debug\mvcASP.csproj.CoreCompileInputs.cache
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\obj\Debug\mvcASP.csproj.CopyComplete
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\obj\Debug\mvcASP.dll
+C:\Users\d3nis\OneDrive\Desktop\denis laptop\web\mvcASP\obj\Debug\mvcASP.pdb

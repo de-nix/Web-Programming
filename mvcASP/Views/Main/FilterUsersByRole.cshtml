@@ -1,0 +1,166 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FilterUsers</title>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <style type="text/css">
+        .mytablerow {
+            background-color: #ff9999;
+        }
+
+        .setter {
+            display: inline-block;
+            padding: 15px;
+            border: 1px solid;
+            box-shadow: black;
+            color: darkgray;
+        }
+
+        .getters {
+            padding: 15px;
+            border: 1px solid;
+            box-shadow: black;
+            color: darkgray;
+            display: block;
+        }
+
+        .row {
+            margin: auto;
+            width: 50%;
+            display: flex;
+            align-self: center;
+            background-color: cornsilk;
+        }
+
+        td {
+        
+            padding:5px;
+        
+        }
+
+    </style>
+
+    <script>
+
+        function lastRole() {
+            let lr = undefined;
+            return function setNewRole(role) {
+                let oldRole = lr;
+                lr = role;
+                return oldRole;
+            };
+        }
+
+        function deleteFunc(deleteid) {
+            if (confirm("Are you sure you want to delete this user?")) {
+                $.ajax({
+                    type: "GET",
+                    url: "/Main/deleteUser",
+                    data: { id: deleteid },
+                    success: function (data) {
+                        $("#maindiv").html(data);
+                    }
+                });
+            }
+        }
+        function updateFunc(deleteid) {
+
+            window.location.href = '/Main/UpdateView/' + deleteid;
+        }
+
+        function lastName() {
+            let ln = undefined;
+            return function setNewName(name) {
+                let oldName = ln;
+                ln = name;
+                return oldName;
+            }
+        }
+
+        let role = lastRole();
+        let name = lastName();
+
+
+        $(document).ready(function () {
+
+
+
+            $("#getAll").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "/Main/GetUsers",
+                    data: {},
+                    success: function (data) {
+                        $("#maindiv").html(data);
+                    }
+                });
+            });
+            $("#button").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "/Main/GetUsersWithRole",
+                    data: { role: $("#role").val() },
+                    success: function (data) {
+                        $("#maindiv").html(data);
+                    }
+                });
+                let p = document.getElementById('lastSearch');
+                p.innerText = '';
+                let text = role(document.getElementById('role').value);
+                if (text !== undefined) {
+                    p.innerText = 'Last filtered role was: ' + text;
+                }
+
+            })
+            $("#getUser").click(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "/Main/GetUserByName",
+                    data: { name: $("#name").val() },
+                    success: function (data) {
+                        $("#maindiv").html(data);
+                    }
+                });
+                let p = document.getElementById('lastSearch');
+                p.innerText = '';
+                let text = name(document.getElementById('name').value);
+                if (text !== undefined) {
+                    p.innerText = 'Last name searched was: ' + text;
+                }
+
+            })
+
+
+
+
+        });
+    </script>
+</head>
+<body>
+
+    <div class="getters">
+        <input id="getAll" type="button" value="Get all users" />
+    </div>
+    <div class="getters">
+        Role: <input type="text" required id="role" /><br />
+        <input id="button" type="button" value="Filter Users By Role" />
+    </div>
+    <div class="getters">
+        Role: <input type="text" required id="name" /><br />
+        <input id="getUser" type="button" value="Filter User By Name" />
+    </div>
+
+
+    <p id="lastSearch"></p>
+    Lista userilor cu role:
+    <div id="maindiv"></div><br />
+
+    <form action="@Url.Action("AddUser", "Main")">
+        <input type="submit" value="add new User" />
+    </form>
+
+</body>
+</html>
